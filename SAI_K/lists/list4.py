@@ -1,0 +1,13 @@
+magic_square=[[1,2,3],[4,5,6],[7,8,9]]
+print(type(magic_square))
+print(type(magic_square[0]))
+print(magic_square[-1])
+print(min(magic_square[0]))
+print(max(magic_square[0]))
+print(max(magic_square[2]))
+print(min(magic_square[1]))
+print(sum(magic_square[0]))
+print(sum(magic_square[1]))
+print(sum(magic_square[2]))
+ms=magic_square[0]+magic_square[1]+magic_square[2]
+print(sum(ms))

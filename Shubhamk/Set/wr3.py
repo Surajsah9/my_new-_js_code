@@ -1,0 +1,8 @@
+x=set()
+print(type(x))
+x.add("Red")
+print(x)
+x.add("1")
+print(x)
+x.update(["Blue","Green"])
+print(x)

@@ -1,0 +1,13 @@
+x={1,2,3,4,5,6,7,8,9,10}
+x.pop()
+print(x)
+x.remove(4)
+print(x)
+x.remove(7)
+print(x)
+x.pop()
+print(x)
+x.discard(9)
+print(x)
+x.clear()
+print(x)
